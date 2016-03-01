@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Repository xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Addin>
+    <Url>TwinTechs.EditorExtensions.Twin Tools_1.2.mpack</Url>
+    <Addin>
+      <Id>Twin Tools</Id>
+      <Namespace>TwinTechs.EditorExtensions</Namespace>
+      <Name>Twin Tools</Name>
+      <Version>1.2</Version>
+      <BaseVersion />
+      <Author>George James Edward Cook</Author>
+      <Copyright />
+      <Url />
+      <Description>Provides some further comfort features for user's of Xamarin's excellent IDE, including: 
+ *Navigation features including next/previous member, 
+ *search and navigate to members, 
+ *recent document browser, 
+ * Go to Definition+, which adds support for some Xaml navigation as well as going to an implementing class instead of interface, and cycling through all interface implementors, 
+ * unit test generation and navigation support, rename and refactor namespaces(experimental)</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Core</AddinId>
+          <Version>5.10.2</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Ide</AddinId>
+          <Version>5.10.2</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Refactoring</AddinId>
+          <Version>5.10.2</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Core</AddinId>
+          <Version>5.10.2</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Ide</AddinId>
+          <Version>5.10.2</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.CSharpBinding</AddinId>
+          <Version>5.10.2</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Debugger</AddinId>
+          <Version>5.10.2</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.SourceEditor2</AddinId>
+          <Version>5.10.2</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Refactoring</AddinId>
+          <Version>5.10.2</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Xamarin.Ide</AddinId>
+          <Version>5.10.2</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Xml</AddinId>
+          <Version>5.10.2</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">26678</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+</Repository>
